@@ -1,14 +1,11 @@
 .Header {
     &__First-Row {
-      &__Second-Column {
-        &__Ul {
-          &--list-unstyle {
-            list-style: none;
-          }
-  
-          &__Li {
+    &__Second-Column {
+      &__Ul { display: 
+        &--list-unstyle {list-style: none;}
+           &__Li {
             &__Anchor {
-              border-bottom-width: 4px !important;
+              border-bottom-width: 100px !important;
               border-bottom-style: solid !important;
               border-bottom-color: transparent;
               padding-bottom: 8px;
@@ -25,6 +22,7 @@
           }
         }
       }
+    
     }
   
     &__Second-Row {
